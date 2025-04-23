@@ -100,3 +100,9 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 
 Aqui se agregó  aws secret 
+
+
+
+Aquí se agregó aws ses 
+
+yarn add @aws-sdk/client-ses

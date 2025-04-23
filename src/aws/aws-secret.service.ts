@@ -7,7 +7,7 @@ import {
 
 @Injectable()
 export class AwsSecretService {
-    private client = new SecretsManagerClient({ region: 'us-east-1' });
+    private readonly client = new SecretsManagerClient({ region: 'us-east-1' });
 
     // 🧠 Simple cache por nombre de secreto
     private cache = new Map<string, any>();
